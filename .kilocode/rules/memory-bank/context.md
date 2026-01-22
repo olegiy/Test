@@ -8,10 +8,12 @@ Core transcription workflow implementation and design polish.
 - Implemented premium landing page with "Industrial Scholarly" aesthetic.
 - Developed "Double Pass" ensemble OCR engine in `src/lib/image-processing`.
 - Integrated Gemini API with multi-variant prompting logic.
-- Created functional Workspace and Transcription components.
+- Standardized project structure according to Kilo Code guidelines (created AGENTS.md, README.md, and structured folders).
+- Added specialized AGENTS.md instructions for Gemini and Image Processing modules.
 
 ## Next Steps
 1. **Refine Image Viewers:** Add zoom/pan capabilities to the manuscript viewer.
+
 2. **Layout Visualization:** Implement bounding box overlays based on AI JSON response.
 3. **Export System:** Add Markdown and PDF export functionality.
 4. **Offline Mode:** Explore local image processing optimization.
